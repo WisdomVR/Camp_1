@@ -1,0 +1,21 @@
+h1{
+    color: red;
+    background-color: chocolate;
+    font-size: xx-large;
+}
+img{
+    height: 280px;
+    width: 480px;
+}
+p{
+    color: brown;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: aqua;
+}
+.para{
+    color: black;
+    font-size: smaller;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: brown;
+}
