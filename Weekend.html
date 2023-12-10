@@ -1,1 +1,125 @@
-(Make a better styled html and css table)
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weekend Assignment</title>
+    <style>
+        body {text-align: center;}
+        table {
+            border: 3px solid black;
+            border-collapse: collapse;
+            text-align: center;
+        }
+        caption {
+            height: fit-content;
+            font-style:italic;
+            border: 3px solid black;
+            font-size: larger;
+            background-color: aqua;
+            font-family:Georgia, 'Times New Roman', Times, serif;
+        }
+        th,td {
+            border: 2px solid rgb(100, 100, 100);
+            width: 100px;
+            height: 20px;
+
+        }
+        .head {
+            background-color: aquamarine;
+            font-size: large;
+            font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        }
+        .h2 {
+            background-color: rgb(173, 253, 226);
+        }
+        .date {
+            background-color: rgb(177, 174, 174);
+        }
+        p {
+            font-size: x-large;
+            font-weight: 400;
+            font-family: cursive;
+        }
+        .totals {
+            background-color: rgb(144, 143, 143);
+        }
+        .tfoot {
+            background-color: rgb(243, 84, 84);
+        }
+        div {
+            width: 100%;
+            padding-left: 30%;
+        }
+    </style>
+</head>
+<body>
+    <p>Hello dear customer,<br>
+    welcome to this week's review of your travelling expenditure</p>
+    <div><table>
+        <caption>Travel Expense Report</caption>
+        <tr class="head">
+            <th>Dates</th>
+            <th>Meals</th>
+            <th>Hotels</th>
+            <th>Transport</th>
+            <th>Subtotals</th>
+        </tr>
+        <tr>
+            <th colspan="5" class="h2">San Jose</th>
+        </tr>
+        <tr>
+            <td class="date">25-Aug-97</td>
+            <td>37.74</td>
+            <td>112.00</td>
+            <td>45.00</td>
+            <td>194.74</td>
+        </tr>
+        <tr>
+            <td class="date">26-Aug-97</td>
+            <td>27.28</td>
+            <td>112.00</td>
+            <td>45.00</td>
+            <td>184.28</td>
+        </tr>
+        <tr>
+            <th class="totals">Subtotals</th>
+            <td>65.02</td>
+            <td>224.00</td>
+            <td>90.00</td>
+            <td>379.02</td>
+        </tr>
+        <tr>
+            <th colspan="5" class="h2">Seattle</th>
+        </tr>
+        <tr>
+            <td class="date">27-Aug-97</td>
+            <td>96.25</td>
+            <td>109.00</td>
+            <td>36.00</td>
+            <td>241.25</td>
+        </tr>
+        <tr>
+            <td class="date">28-Aug-97</td>
+            <td>35.00</td>
+            <td>109.00</td>
+            <td>36.00</td>
+            <td>180.00</td>
+        </tr>
+        <tr>
+            <th class="totals">Subtotals</th>
+            <td>131.25</td>
+            <td>218.00</td>
+            <td>72.00</td>
+            <td>421.25</td>
+        </tr>
+        <tr class="tfoot">
+            <th>Totals</th>
+            <td>196.27</td>
+            <td>442.00</td>
+            <td>162.00</td>
+            <td>800.27</td>
+        </tr>
+    </table></div>
+</body>
+</html>
