@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Complex Form</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        .div1 {
+            background-image: url('pic2.jpg');
+            background-size: cover;
+            background-repeat:no-repeat;
+            height: 100vh;
+            background-position: center;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        form {
+            text-align: center;
+            background-color: wheat;
+            border-radius: 8px;
+            padding: 15px;
+        }
+        input {
+            width: 100%;
+            height: 25px;
+            margin-bottom: 10px;
+            text-align: center;
+            border: none;
+            border-bottom: 2px solid orange;
+            outline: none;
+            background-color: wheat;
+        }
+        input[type="submit"] {
+            background-color: orange;
+            color: whitesmoke;
+            height: 30px;
+            border-radius: 8px;
+        }
+        .div2 {
+            width: 100%;
+            height: 130px;
+            background-color: chocolate;
+            display: flex;
+        }
+        .div3 {
+            width: 33%;
+            height: fit-content;
+        }
+    </style>
+</head>
+<body>
+    <div class="div1">
+        <form action="">
+            <h1 style="text-align: center;">Input your details and let's begin</h1>
+            <hr>
+            <hr style="margin-bottom: 5px;">
+        <label>Name</label><br>
+        <input type="text" placeholder="Eg. John Ndegwa"><br>
+        <label>Surname</label><br>
+        <input type="text" placeholder="Eg. Muturi"><br>
+        <label for="">Contact</label><br>
+        <input type="text" placeholder="Enter your address"><br>
+        <label for="">Age</label><br>
+        <input type="number" placeholder="Eg. 21"><br>
+        <label for="">Email</label><br>
+        <input type="email" placeholder="Eg. yourself@gmail.com"><br>
+        <label for="">Password</label><br>
+        <input type="password" placeholder="Set Password"><br>
+        <label for="">Phone</label><br>
+        <input type="tel" placeholder="Eg. 07XX XXX XXX"><br>
+        <label for="">Date of birth</label><br>
+        <input type="date"><br>
+        <input type="submit">
+        </form>
+    </div>
+    <div class="div2">
+        <div class="div3">
+            <p>Certifications</p><br>
+            <p>Help</p><br>
+            <p>About us</p><br>
+        </div>
+        <div class="div3">
+            <p>Learning Network Store</p><br>
+            <p>Certification Tracker</p><br>
+            <p>Learning Network Poscast</p><br>
+        </div>
+        <div class="div3">
+            <p>Stay Connected</p><br>
+            <p>Member Directories</p><br>
+            <p>Communities</p><br>
+        </div>
+    </div>
+    <div style="background-color: chocolate;text-align: center; padding-bottom: 30px;">
+        <p>© Copyright 2023 Cisco, Inc. All Rights Reserved.         Privacy Statement         Terms & Conditions         Cookie Policy         Trademarks</p>
+    </div>
+</body>
+</html>
