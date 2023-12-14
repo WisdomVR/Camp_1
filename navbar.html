@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navigation bar</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        nav {
+            display: flex;
+            height: 70px;
+            justify-content: space-between;
+            background-color: blue;
+            color: antiquewhite;
+            align-items: center;
+            padding: 0 30px;/*a shorter way of using padding to differentiate top & bottom and left & right*/
+        }
+        ul {
+            display: flex;
+            list-style: none;
+            gap: 20px;
+        }
+        a {
+            text-decoration: none;
+            color: antiquewhite;
+            transition: .5s;
+        }
+        a:hover {
+            color: aqua;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <h1>Junkie</h1>
+        <ul>
+            <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="">About</a>
+            </li>
+            <li>
+                <a href="">Services</a>
+            </li>
+            <li>
+                <a href="">Projects</a>
+            </li>
+            <li>
+                <a href="">FAQs</a>
+            </li>
+        </ul>
+    </nav>
+</body>
+</html>
